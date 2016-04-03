@@ -1,0 +1,39 @@
+html, body{
+	width: 100%;
+	height: 100%;
+	font-family: 'Circular', Helvetica, sans-serif;
+}
+p{
+	font-size: 18px;
+	line-height: 1.4;
+}
+body{
+	background: url(../img/ck_img001.jpg) center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+section.container{
+	padding: 100px 0 0 100px;
+}
+img.title{
+	width: 480px;
+	height: 234px;
+}
+div.text{
+	width: 610px;
+	margin-top: 40px;
+}
+
+@media screen and (max-width: 580px){
+	section.container{
+		padding: 40px;
+	}
+	img.title{
+		width: 100%;
+		height: auto;
+	}
+	div.text{
+		width: 100%;
+		
+	}
+}
